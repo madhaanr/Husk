@@ -1,0 +1,14 @@
+{
+  "name": "husk",
+  "version": "1.0.0",
+  "description": "Write text on webpage, tutorial app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "madhaanr",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "2.1.3"
+  }
+}
