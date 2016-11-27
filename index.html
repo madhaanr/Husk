@@ -5,14 +5,16 @@
     <meta name="viewport" contents="width-device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" contents="ie=edge">
     <link rel="stylesheet" href="public/styles.css">
+    <link rel="stylesheet" href="bower_components/pen/src/pen.css">
     <title>Document</title>
   </head>
   <body>
     <main id="App">
-      {{msg}}
-      <input type="text" v-model="msg" />
+      <article id="Editor" contenteditable></article>
     </main>
-    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="bower_components/pen/src/pen.js"></script>
+    <script src="bower_components/pen/src/markdown.js"></script>
+    <script src="node_modules/vue/dist/vue.js"></script>   
     <script src="public/main.js" charset="utf-8"></script>
   </body>
 </html>
